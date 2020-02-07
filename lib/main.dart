@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_meal_app/screens/categories_screen.dart';
 import 'package:flutter_meal_app/screens/category_detail_screen.dart';
 import 'package:flutter_meal_app/screens/mail_detail_screen.dart';
+import 'package:flutter_meal_app/screens/tab_bar_screens.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
       ),
-      home: CategoriesScreen(),
+      home: TabsBarScreens(),
       routes: {
         "category_meal" : (context) => CategoryDetailScreen(),
         MailDetailScreen.routeName : (context) => MailDetailScreen(),
