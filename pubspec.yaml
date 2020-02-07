@@ -67,6 +67,20 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+fonts:
+- family: Releway
+  fonts:
+  - asset: fonts/Releway-Regular.ttf
+  - asset: fonts/Releway-Bold.ttf
+    weight: 700
+  - asset: fonts/Releway-Black.ttf
+    weight: 900
+- family: RobotoCondensed
+  fonts:
+  - asset: fonts/RobotoCondensed-Regular.ttf
+  - asset: fonts/RobotoCondensed-Light.ttf
+  - asset: fonts/RobotoCondensed-Italic.ttf
+    style: italic
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
