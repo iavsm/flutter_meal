@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_meal_app/screens/categories_screen.dart';
 import 'package:flutter_meal_app/screens/favorite_screen.dart';
+import 'package:flutter_meal_app/widgets/main_drawer.dart';
 
 class BottomTapBar extends StatefulWidget {
   @override
@@ -27,6 +28,7 @@ class _BottomTapBarState extends State<BottomTapBar> {
       appBar: AppBar(
         title: Text("Meal APp"),
       ),
+      drawer: MainDrawer(),
       body: _pages[_selectedCurrentPAgeIndex]["page"],
       bottomNavigationBar: BottomNavigationBar(
         onTap: _selectPage,

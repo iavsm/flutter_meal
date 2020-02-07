@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_meal_app/screens/bottom_tap_bar_screen.dart';
 import 'package:flutter_meal_app/screens/categories_screen.dart';
 import 'package:flutter_meal_app/screens/category_detail_screen.dart';
+import 'package:flutter_meal_app/screens/filter_screen.dart';
 import 'package:flutter_meal_app/screens/mail_detail_screen.dart';
 import 'package:flutter_meal_app/screens/tab_bar_screens.dart';
 
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "category_meal" : (context) => CategoryDetailScreen(),
         MailDetailScreen.routeName : (context) => MailDetailScreen(),
+        FilterScreens.routeName : (context) => FilterScreens(),
       },
     );
   }
