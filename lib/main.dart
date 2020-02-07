@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_meal_app/screens/bottom_tap_bar_screen.dart';
 import 'package:flutter_meal_app/screens/categories_screen.dart';
 import 'package:flutter_meal_app/screens/category_detail_screen.dart';
 import 'package:flutter_meal_app/screens/mail_detail_screen.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
       ),
-      home: TabsBarScreens(),
+      home: BottomTapBar(),
       routes: {
         "category_meal" : (context) => CategoryDetailScreen(),
         MailDetailScreen.routeName : (context) => MailDetailScreen(),
