@@ -60,6 +60,12 @@ class MailDetailScreen extends StatelessWidget {
                 return Text(" #${index+1} ${selectedMeal.steps[index]}");
               },
                 itemCount: selectedMeal.steps.length,),
+            ),
+            FloatingActionButton(
+              child: Icon(Icons.delete),
+                onPressed: (){
+                  Navigator.of(context).pop(arguments);
+                },
             )
           ],
         ),
